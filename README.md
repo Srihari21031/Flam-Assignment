@@ -76,6 +76,7 @@ Given a list of `n` modules and their dependency relationships, determine if the
 **Function Signature:**
 ```cpp
 bool hasCircularDependency(int n, vector<vector<int>>& edges);
+
 Constraints:
 
 1 <= n <= 10^4
@@ -90,7 +91,7 @@ Example:
 Input: n = 4, edges = {{0, 1}, {1, 2}, {2, 0}}
 Output: true
 
-
+---
 ## 🧪 How to Use
 
 Each problem is implemented in a dedicated C++ file. Clone the repository and compile any file using a standard C++ compiler.
