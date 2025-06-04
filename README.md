@@ -63,6 +63,7 @@ Given an integer `n`, return all distinct solutions to the n-queens puzzle. You 
 [".Q..","...Q","Q...","..Q."],
 ["..Q.","Q...","...Q",".Q.."]
 ]
+
 ---
 
 ## 4. Cycle Detection in Directed Graph
@@ -90,12 +91,13 @@ Input: n = 4, edges = {{0, 1}, {1, 2}, {2, 0}}
 Output: true
 
 
-🧪 How to Use
-Each problem is implemented in a dedicated C++ file. Clone the repo and compile any file using a standard C++ compiler.
+## 🧪 **How to Use**
 
+Each problem is implemented in a dedicated C++ file. Clone the repository and compile any file using a standard C++ compiler.
+
+```bash
 g++ -std=c++17 lru_cache.cpp -o lru
 ./lru
-
 
 
 
