@@ -91,13 +91,22 @@ Input: n = 4, edges = {{0, 1}, {1, 2}, {2, 0}}
 Output: true
 
 
-## 🧪 **How to Use**
+## 1. LRU Cache
 
-Each problem is implemented in a dedicated C++ file. Clone the repository and compile any file using a standard C++ compiler.
+**Problem Statement:**  
+Design and implement a Least Recently Used (LRU) Cache. A cache has a fixed capacity, and when it exceeds that capacity, it must evict the least recently used item to make space for the new one.
 
-```bash
-g++ -std=c++17 lru_cache.cpp -o lru
-./lru
+Implement the following operations:
+- `get(key)`: Return the value of the key if it exists in the cache, otherwise return -1.
+- `put(key, value)`: Update or insert the value. If the cache is full, remove the least recently used item before inserting.
+
+**Constraints:**
+- 1 <= capacity <= 3000  
+- 0 <= key, value <= 10^4  
+- Maximum operations: 10^5  
+- All operations must be done in O(1) time complexity.
+
+---
 
 
 
